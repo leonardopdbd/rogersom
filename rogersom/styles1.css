@@ -1,0 +1,141 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza a página horizontalmente */
+    background-color: #f4f4f4;
+}
+
+/* Header */
+/* Header */
+/* Header */
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Alinha logo e links à esquerda */
+    width: 100%;
+    background-color: #feca0b;
+    padding: 10px 30px; /* Espaço interno para afastar o conteúdo das bordas */
+    color: #000;
+}
+
+header .logo {
+    margin-right: 20px; /* Afastamento entre a logo e os links */
+}
+
+header .logo img {
+    max-width: 100px;
+    display: block;
+}
+
+header nav {
+    display: flex;
+    gap: 20px; /* Espaçamento entre os links */
+}
+
+header nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.banner {
+    text-align: center; /* Centraliza o banner */
+}
+
+/* Banner */
+.banner img {
+    width: 80%; /* Reduz o tamanho do banner */
+    max-width: 1000px; /* Limita a largura máxima */
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Container Geral */
+.container {
+    max-width: 1200px; /* Largura máxima da página */
+    width: 90%; /* Margem automática para responsividade */
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: justify; /* Alinha o texto ao bloco, deixando-o uniforme */
+}
+
+/* Sobre */
+#sobre {
+    text-align: center; /* Centraliza o título e outros elementos da seção */
+}
+
+#sobre h2 {
+    color: #000;
+    margin-bottom: 20px;
+}
+
+#sobre .logo2 img {
+    margin: 20px auto;
+    display: block;
+    border-radius: 0; /* Remove bordas arredondadas */
+    border: 3px solid #000;
+}
+
+#sobre p {
+    margin: 10px 0;
+    text-align: justify; /* Texto justificado para uma aparência mais organizada */
+}
+
+#sobre ul {
+    list-style: disc;
+    margin: 20px auto;
+    padding-left: 40px;
+    text-align: justify; /* Justifica o texto dentro da lista */
+}
+
+#sobre img {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px; /* Adiciona espaçamento extra abaixo da imagem */
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Centraliza a imagem */
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: #feca0b;
+    color: #000;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+}
