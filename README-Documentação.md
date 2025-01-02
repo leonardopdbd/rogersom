@@ -34,10 +34,6 @@ Ative o servidor Apache e o MySQL no painel do XAMPP.
 3. Importe o arquivo database.sql (incluso no projeto) para criar as tabelas necessárias.
 4. Configure a conexão com o banco de dados no arquivo process_form.php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "meu_banco_de_dados";
 
 ## 4. Utilizando o Site
 Acesse o site em http://localhost/meu-projeto/contato.html.
