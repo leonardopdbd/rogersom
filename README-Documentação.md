@@ -51,3 +51,7 @@ No Banco de Dados:
 Acesse http://localhost/phpmyadmin.
 Encontre a tabela contatos no banco de dados configurado.
 Visualize as mensagens enviadas.
+
+## Desenvolvido por:
+Leonardo Ferraz Rodrigues Pereira
+
